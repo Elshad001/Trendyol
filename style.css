@@ -1,0 +1,325 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container
+{
+    width:100%;
+    height:2000px;
+    font-family: sans-serif;
+}
+.container .header
+{
+    width:100%;
+    height:200px;
+    border-bottom:1px solid #ccc;
+}
+.container .header .header-1
+{
+    width:100%;
+    height:85px;
+    padding:10px 250px;
+    background-color: black;
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+}
+.container .header .header-2
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:55px;
+    padding:0 150px;
+}
+.container .header .header-2 .logo
+{
+    width:13%;
+    height:55px;
+    background-image:url('https://cdn.dsmcdn.com/web/logo/ty-web.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container .header .header-2 .search
+{
+    position: relative;
+    width:45%;
+    height:45px;
+    padding-top:10px;
+}
+.container .header .header-2 .search .search-input
+{
+    width:100%;
+    height:45px;
+    padding-left:30px;
+    border:none;
+    border-radius: 10px;
+    background-color: #eee;
+}
+.container .header .header-2 .search .search-icon
+{
+    position:absolute;
+    top:25px;
+    right:10px;
+    width:30px;
+    height:30px;
+    font-size:20px;
+    color:rgb(188, 114, 22)
+    
+}
+.container .header .header-2 .menu-up
+{
+    width:28%;
+    height:45px;
+    padding-top:20px;
+}
+.container .header .header-2 .menu-up ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.container .header .header-2 .menu-up ul li
+{
+    width:150px;
+    height:30px;
+    font-size:14px;
+    font-weight:bold;
+    color:#333;
+    margin-left:10px;
+}
+.container .header .header-2 .menu-up ul li i
+{
+    font-size:18px;
+}
+.container .header .header-3
+{
+    width:100%;
+    height:30px;
+    padding:0 150px;
+}
+.container .header .header-3 .menu-down
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:45px;
+    padding-top:20px;
+    list-style-type: none;
+}
+
+.container .header .header-3 .menu-down  li
+{
+    font-size:13px;
+    font-weight:bold;
+    color:#333;
+}
+.container .main
+{
+    width:100%;
+    height:1500px;
+    padding:30px 150px;
+}
+.container .main .section-1
+{
+    position: relative;
+    width:100%;
+    height:500px;
+}
+.container .main .section1 .section1-cards
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:300px;
+}
+.container .main .section1 .section1-cards .section1-card
+{
+    width:32%;
+    height:250px;
+}
+.container .main .section1 .section1-cards .section1-card:hover .section1-card-img
+{
+    scale:102%;
+}
+.container .main .section1 .section1-cards .section1-card:hover .section1-card-info
+{
+    background-color: rgb(248, 141, 11);
+}
+.container .main .section1 .section1-cards .section1-card:hover .section1-card-info .info2
+{
+    display: block;
+}
+.container .main .section1 .section1-cards .section1-card .section1-card-img
+{
+    width:100%;
+    height:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:0.5s;
+}
+.container .main .section1 .section1-cards .section1-card1-img
+{
+    background-image:url('https://cdn.dsmcdn.com/marketing/datascience/automation/2023/2/10/Banner_202302102258.jpg');
+}
+.container .main .section1 .section1-cards .section1-card2-img
+{
+    background-image:url('https://cdn.dsmcdn.com/marketing/datascience/automation/2023/2/11/Webbanner_202302110152.gif');
+}
+.container .main .section1 .section1-cards .section1-card3-img
+{
+    background-image:url('https://cdn.dsmcdn.com/marketing/datascience/automation/2023/2/12/Mobilbanner_Stkall_Web_110223_1_202302120416.png');
+}
+.container .main .section1 .section1-cards .section1-card .section1-card-info
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:41px;
+    padding:10px 20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color:#333;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+}
+.container .main .section1 .section1-cards .section1-card .section1-card-info .info2
+{
+    display: none;
+}
+.container .main .section1 .section1-slider
+{
+   
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+.container .main .section1 .sld-prev-btn
+{
+    position:absolute;
+    top:570px;
+    left:100px;
+    width:30px;
+    height:30px;
+    border: none;
+    background-color: transparent;
+    font-size:30px;
+    color:#eee;
+    z-index: 555;
+
+}
+.container .main .section1 .sld-next-btn
+{
+    position:absolute;
+    top:570px;
+    right:100px;
+    width:30px;
+    height:30px;
+    border: none;
+    background-color: transparent;
+    font-size:30px;
+    color:#eee;
+    z-index: 555;
+
+}
+.container .main .section1 .section1-slider .sec1-sldbox
+{
+    min-width:130px;
+    height:100px;
+}
+.container .main .section1 .section1-slider .sec1-sldbox:hover .sec1-sldbox-img
+{
+   border:2px solid rgb(248, 141, 11);
+}
+.container .main .section1 .section1-slider .sec1-sldbox:hover .sec1-sldbox-info
+{
+   color:rgb(248, 141, 11);
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox-img
+{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    border:2px solid #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:0.5s;
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox-info
+{
+    width:80px;
+    height:30px;
+    margin-top:15px;
+    font-size:13px;
+    font-weight:bold;
+    color:#555;
+    text-align: center;
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox1-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/SanaoZel_202301271715.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox2-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/3/7/Coksatanlar1_202203072239.png');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox3-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/11/29/Screenshot20221128At163430_202211290324.png');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox4-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2020/12/30/EglenceWeb_202012301831.png');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox5-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/26/Apple_202301262111.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox6-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/28/Trendyolmilla_202301280120.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox7-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/PullBear_202301271558.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox8-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/28/Xiaomi_202301280236.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox9-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/Philips_202301271558.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox10-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/26/Adidas_202301262144.png');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox11-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/Puma_202301271558.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox12-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/Nike_202301271540.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox13-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/Samsung_202301271715.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox14-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/1/27/IPekyol_202301270326.jpg');
+}
+.container .main .section1 .section1-slider .sec1-sldbox .sec1-sldbox15-img
+{
+    background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/6/30/Yeni200X20001_202206301534.png');
+}
