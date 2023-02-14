@@ -323,3 +323,39 @@
 {
     background-image:url('https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/6/30/Yeni200X20001_202206301534.png');
 }
+.container .main .section2 
+{
+    width:100%;
+    height:500px;
+}
+.container .main .section2 .section2-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:100px;
+}
+.container .main .section2 .section2-buttons .sec2-btn
+{
+    width:400px;
+    height:60px;
+    padding-top:18px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bolder;
+    color:#fff;
+    text-align: center;
+}
+.container .main .section2 .section2-buttons .sec2-btn1
+{
+    background: linear-gradient(to right,#26db9b ,#61dc3c);
+}
+.container .main .section2 .section2-buttons .sec2-btn2
+{
+    background: linear-gradient(to right,#b73cb2 ,#1d0ce1);
+}
+.container .main .section2 .section2-buttons .sec2-btn3
+{
+    background: linear-gradient(to right,#ce5f37 ,#d65ac5);
+}
